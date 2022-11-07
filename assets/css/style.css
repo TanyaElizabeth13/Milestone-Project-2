@@ -1,2 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Gluten:wght@200;400;600&family=Hachi+Maru+Pop&family=Poppins:ital,wght@0,200;1,200&display=swap');
 
+#header {
+    background-color: white;
+}
+
+#mascot-image {
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    font-family: 'gluten', cursive;
+    font-weight: 600;
+    text-align: center;
+    font-size: 100px;
+    color: #41ac3c;
+}
+
+h2 {
+    font-family: 'Hachi Maru Pop', cursive;
+    font-weight: 400;
+    text-align: center;
+    font-size: 60px;
+    color: #90e274;
+}
