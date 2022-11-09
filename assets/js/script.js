@@ -50,14 +50,14 @@ const imgData = () => [{
         imgSrc: "./assets/images/peter-text.jpg",
         name: "potato"
     },
-]
+];
 
 //Randomize game cards
 const randomize = () => {
     const cardData = imgData();
     cardData.sort(() => Math.random() - 0.5)
     return cardData;
-}
+};
 
 //Generate cards 
 const cardGenerate = () => {
