@@ -52,8 +52,17 @@ const imgData = () => [{
     },
 ]
 
+//Randomize game cards
+const randomize = () => {
+    const cardData = imgData();
+    cardData.sort(() => Math.random() - 0.5)
+    return cardData;
+}
+
 //Generate cards 
 const cardGenerate = () => {
+    const cardData = randomize();
+    //Create card html
     cardData.forEach((item, index) => {
         const card = document.createElement('div');
         const front = document.createElement('img');
