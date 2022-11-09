@@ -85,4 +85,13 @@ const cardGenerate = () => {
     });
 };
 
+//Check selected cards for match
+const checkMatch = (e) => {
+    console.log(e);
+    const selectedCard = e.target;
+    selectedCard.classList.add('selected');
+    const turnedCards = document.querySelectorAll('.selected');
+    console.log(turnedCards);
+};
+
 cardGenerate();
