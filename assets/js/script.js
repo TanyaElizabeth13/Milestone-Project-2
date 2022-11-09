@@ -92,6 +92,23 @@ const checkMatch = (e) => {
     selectedCard.classList.add('selected');
     const turnedCards = document.querySelectorAll('.selected');
     console.log(turnedCards);
+
+    //Game logic
+    if (turnedCards.length === 2) {
+        if (turnedCards[0].getAttribute('name') === turnedCards[1].getAttribute('name')) {
+            console.log('match');
+            turnedCards.forEach((card) => {
+                card.classList.remove('selected');
+                card.style.pointerEvents = "none";
+            });
+        } else {
+            console.log('no match');
+            turnedCards.forEach((card) => {
+                card.classList.remove('selected');
+                setTimeout(() => card.classList.remove('toggleCard'), 1000);
+            });
+        }
+    }
 };
 
 cardGenerate();
