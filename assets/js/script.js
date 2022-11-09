@@ -77,8 +77,12 @@ const cardGenerate = () => {
         gameSection.appendChild(card);
         card.appendChild(front);
         card.appendChild(back);
+
+        card.addEventListener('click', (e) => {
+            card.classList.toggle('toggleCard');
+            checkMatch(e);
+        });
     });
 };
-
 
 cardGenerate();
