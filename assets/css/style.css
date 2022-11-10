@@ -9,6 +9,21 @@
     height: 200px;
 }
 
+#mascot-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mascot-text{
+    font-family: 'Poppins', sans-serif;;
+    color: #465438;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+
 h1 {
     font-family: 'gluten', cursive;
     font-weight: 600;
