@@ -114,8 +114,22 @@ const checkMatch = (e) => {
             });
             livesLeft--;
             livesLeftNo.textContent = livesLeft;
+            if (livesLeft === 0) {
+                newGame();
+            }
         }
     }
 };
 
+//Restart game 
+const newGame = () => {
+    let cardData = randomize();
+    let fronts = document.querySelectorAll('.front');
+    let cards = document.querySelectorAll('.card');
+    cardData.forEach((item, index) => {
+        cards[index].classList.remove('toggleCard');
+        cards[index].style.pointerEvents ='all';
+        fronts[index].src = item.imgSrc;
+    });
+};
 cardGenerate();
