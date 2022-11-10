@@ -132,5 +132,7 @@ const newGame = () => {
         fronts[index].src = item.imgSrc;
         cards[index].setAttribute('name', item.name);
     });
+    livesLeft = 8;
+    livesLeftNo.textContent = livesLeft;
 };
 cardGenerate();
