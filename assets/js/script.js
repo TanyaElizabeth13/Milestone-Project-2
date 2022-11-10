@@ -130,6 +130,7 @@ const newGame = () => {
         cards[index].classList.remove('toggleCard');
         cards[index].style.pointerEvents ='all';
         fronts[index].src = item.imgSrc;
+        cards[index].setAttribute('name', item.name);
     });
 };
 cardGenerate();
