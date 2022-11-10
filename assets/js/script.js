@@ -85,6 +85,11 @@ const cardGenerate = () => {
     });
 };
 
+// Player lives count
+const livesLeftNo = document.getElementById('lives');
+let livesLeft = 8; 
+livesLeftNo.textContent = livesLeft; 
+
 //Check selected cards for match
 const checkMatch = (e) => {
     console.log(e);
@@ -107,6 +112,8 @@ const checkMatch = (e) => {
                 card.classList.remove('selected');
                 setTimeout(() => card.classList.remove('toggleCard'), 1000);
             });
+            livesLeft--;
+            livesLeftNo.textContent = livesLeft;
         }
     }
 };
