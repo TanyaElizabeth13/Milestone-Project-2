@@ -78,7 +78,7 @@ h2 {
 }
 
 .front {
-    transform: rotateY('180deg');
+    transform: scaleX(-1);
 }
 
 .footer-text {
