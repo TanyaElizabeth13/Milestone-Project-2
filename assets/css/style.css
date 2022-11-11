@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Gluten:wght@200;400;600&family=Hachi+Maru+Pop&family=Poppins:ital,wght@0,200;1,200&display=swap');
 
-#header {
-    background-color: white;
-}
-
 #mascot-image {
     width: 200px;
     height: 200px;
@@ -74,4 +70,28 @@ h2 {
 
 .front {
     transform: rotateY('180deg');
+}
+
+.footer-text {
+    font-family: 'Poppins', sans-serif;;
+    color: #465438;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+
+.center-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.lives-text {
+    font-family: 'Poppins', sans-serif;;
+    color: #465438;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bolder;
 }
