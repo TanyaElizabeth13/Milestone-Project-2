@@ -84,10 +84,10 @@ h2 {
 .footer-text {
     font-family: 'Poppins', sans-serif;;
     color: #465438;
-    font-size: 14px;
+    font-size: 10px;
     text-align: center;
-    padding-top: 20px;
-    font-weight: bolder;
+    font-weight: bold;
+    margin-top: 30px;
 }
 
 .center-flex {
