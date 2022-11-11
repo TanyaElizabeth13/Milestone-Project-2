@@ -87,8 +87,8 @@ const cardGenerate = () => {
 
 // Player lives count
 const livesLeftNo = document.getElementById('lives');
-let livesLeft = 8; 
-livesLeftNo.textContent = livesLeft; 
+let livesLeft = 8;
+livesLeftNo.textContent = livesLeft;
 
 //Check selected cards for match
 const checkMatch = (e) => {
@@ -96,6 +96,7 @@ const checkMatch = (e) => {
     const selectedCard = e.target;
     selectedCard.classList.add('selected');
     const turnedCards = document.querySelectorAll('.selected');
+    const toggleCard = document.querySelectorAll('.toggleCard');
     console.log(turnedCards);
 
     //Game logic
@@ -115,24 +116,29 @@ const checkMatch = (e) => {
             livesLeft--;
             livesLeftNo.textContent = livesLeft;
             if (livesLeft === 0) {
-                newGame();
+                newGame("Oh no! You ran out of lives. Try again!");
             }
         }
+    }
+    //Game win
+    if (toggleCard.length === 12) {
+        newGame("You did it! Thanks, from your friends The Veg Heads!");
     }
 };
 
 //Restart game 
-const newGame = () => {
+const newGame = (message) => {
     let cardData = randomize();
     let fronts = document.querySelectorAll('.front');
     let cards = document.querySelectorAll('.card');
     cardData.forEach((item, index) => {
         cards[index].classList.remove('toggleCard');
-        cards[index].style.pointerEvents ='all';
+        cards[index].style.pointerEvents = 'all';
         fronts[index].src = item.imgSrc;
         cards[index].setAttribute('name', item.name);
     });
     livesLeft = 8;
     livesLeftNo.textContent = livesLeft;
+    window.alert(message);
 };
 cardGenerate();
