@@ -71,6 +71,18 @@ As an owner of the game site, I want to teach children about vegetables with sim
 
 #### Colours
 
+![colourscheme](../docs/imgs/colours.jpg)
+
+41AC3C
+
+90E274
+
+465438
+
+Black
+
+White
+
 #### Typography
 
 #### Imagery 
