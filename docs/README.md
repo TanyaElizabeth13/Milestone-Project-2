@@ -63,6 +63,12 @@ As an owner of the game site, I want to teach children about vegetables with sim
 
 #### Wireframes
 
+![wireframephone](../docs/imgs/Phone.png)
+
+![wireframepad](../docs/imgs/Pad.png)
+
+![wireframedesktop](../docs/imgs/Desktop.png)
+
 #### Colours
 
 #### Typography
