@@ -17,6 +17,7 @@
     font-size: 14px;
     text-align: center;
     padding-top: 20px;
+    padding-right: 5px;
     font-weight: bolder;
 }
 
@@ -96,15 +97,19 @@ h2 {
 }
 
 .lives-text {
-    font-family: 'Poppins', sans-serif;;
-    color: #465438;
-    font-size: 14px;
+    font-family: 'Hachi Maru Pop', cursive;
+    color: black;
+    font-size: 30px;
     text-align: center;
-    padding-top: 20px;
     font-weight: bolder;
 }
 
 .background {
     background: url('../images/veg-background.jpg');
     background-size: cover;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-thickness: 7px;
 }
