@@ -46,6 +46,7 @@ h2 {
     grid-template-rows: repeat(4, 6rem);
     grid-gap: 1rem;
     perspective: 800px;
+    padding-bottom: 40px;
 }
 
 .card {
@@ -66,6 +67,9 @@ h2 {
 .back {
     background: #41ac3c;
     backface-visibility: hidden;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
 }
 
 .toggleCard {
@@ -98,4 +102,9 @@ h2 {
     text-align: center;
     padding-top: 20px;
     font-weight: bolder;
+}
+
+.background {
+    background: url('../images/veg-background.jpg');
+    background-size: cover;
 }
