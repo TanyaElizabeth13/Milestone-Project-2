@@ -85,6 +85,21 @@ White
 
 #### Typography
 
+All fonts used are imported and sourced from Google fonts. 
+
+Gluten
+
+![glutenfont](../docs/imgs/glutenfont.jpg)
+
+Hachi Maru Pop
+
+![hachifont](../docs/imgs/hachifont.jpg)
+
+Poppins
+
+![poppinsfont](../docs/imgs/poppinsfont.jpg)
+
+
 #### Imagery 
 
 #### Design differences
