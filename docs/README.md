@@ -102,6 +102,10 @@ Poppins
 
 #### Imagery 
 
+Mascots - The Veg Heads! 
+
+![mascotveg](../docs/imgs/Veg.jpg)
+
 #### Design differences
 
 ---
