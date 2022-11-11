@@ -142,3 +142,25 @@ const newGame = (message) => {
     window.alert(message);
 };
 cardGenerate();
+
+// Random trivia button
+let factsBtn = document.getElementById('facts-button');
+let btnOutput = document.getElementById('facts-text');
+
+let facts = [
+    "Most vegetables need warm weather to grow, but spinach, carrots, and turnip can grow in chilly weather",
+    "The part of the broccoli you eat is actually the flowers that haven’t opened yet",
+    "Vegetables were first harvested by humans in 10,000 BCE. That’s a really really really long time ago",
+    "A tomato is actually a fruit! But you probably shouldn’t put it in a fruit salad",
+    "Vegetables are filled with vitamins and nutrients that keep you healthy",
+    "You need to have at least 5 portions of fruit and veg a day. Everyday!",
+    "It doesn’t matter how they are, fresh, frozen, or tinned, they’re all healthy and delicious!",
+    "There are over 1000 types of vegetables that humans can eat. I don’t think we can name them all!",
+];
+
+factsBtn.addEventListener('click', function(){
+    const randomFacts = facts[Math.floor(Math.random() * facts.length)]
+    btnOutput.innerHTML = randomFacts;
+    console.log(randomFacts);
+});
+
