@@ -5,12 +5,6 @@
     height: 200px;
 }
 
-#mascot-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
 .mascot-text{
     font-family: 'Poppins', sans-serif;;
     color: #465438;
