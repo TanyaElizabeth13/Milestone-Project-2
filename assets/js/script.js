@@ -158,14 +158,23 @@ let factsBtn = document.getElementById('facts-button');
 let btnOutput = document.getElementById('facts-text');
 
 let facts = [
-    "Most vegetables need warm weather to grow, but spinach, carrots, and turnip can grow in chilly weather",
-    "The part of the broccoli you eat is actually the flowers that haven’t opened yet",
-    "Vegetables were first harvested by humans in 10,000 BCE. That’s a really really really long time ago",
-    "A tomato is actually a fruit! But you probably shouldn’t put it in a fruit salad",
-    "Vegetables are filled with vitamins and nutrients that keep you healthy",
+    "Most vegetables need warm weather to grow, but spinach, carrots, and turnip can grow in chilly weather.",
+    "The part of the broccoli you eat is actually the flowers that haven’t opened yet.",
+    "Vegetables were first harvested by humans in 10,000 BCE. That’s a really really really long time ago.",
+    "A tomato is actually a fruit! But you probably shouldn’t put it in a fruit salad.",
+    "Vegetables are filled with vitamins and nutrients that keep you healthy.",
     "You need to have at least 5 portions of fruit and veg a day. Everyday!",
     "It doesn’t matter how they are, fresh, frozen, or tinned, they’re all healthy and delicious!",
     "There are over 1000 types of vegetables that humans can eat. I don’t think we can name them all!",
+    "Potatoes have been grown in space!",
+    "Humans share 60% of our DNA with bananas.",
+    "When cranberries are ripe, they bounce.",
+    "Not all oranges are orange. If they are grown in cooler climates, they can be yellow, or even green.",
+    "Figs have more calcium than milk.",
+    "Durian fruit is so smelly it is banned in parts of Asia.",
+    "Apples, pears, cherries, and plums are from the same plant family as roses.",
+    "Strawberries are not really berries because they have their seeds on the outside.",
+    "The largest of the dinosaurs were vegetarians!",
 ];
 
 factsBtn.addEventListener('click', function(){
