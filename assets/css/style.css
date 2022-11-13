@@ -113,3 +113,27 @@ h2 {
     text-decoration: underline;
     text-decoration-thickness: 7px;
 }
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #465438;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#facts-text {
+    font-family: 'Poppins', sans-serif;
+    color: #465438;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#facts-button {
+    border-radius: 12px;
+    padding: 12px 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #41ac3c;
+}
