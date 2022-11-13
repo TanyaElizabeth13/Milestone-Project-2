@@ -13,11 +13,8 @@
     <title>Veg Heads!</title>
 </head>
 
-<body>
+<body onload="enterName()">
     <!--Username alert start-->
-    <section id="user-alert">
-        <input id="user-input">
-    </section>
     <!--Username alert end-->
     <!--Page header start-->
     <section id="header">
@@ -35,8 +32,7 @@
             <img src="assets/images/Tommy-tomato.jpg" class="mascot-image"
                 alt="The veg heads mascot, a cartoon tomato winking and holding up a peace sign">
 
-            <p class="mascot-text">"Hi NAME, I'm Tommy Tomato.<br>
-                Can you help me match my veggie friends to their names?"</p>
+            <p id="user-name" class="mascot-text"></p>
         </div>
     </section>
     <!--Page header end-->

@@ -1,12 +1,12 @@
 //Player name alert
-let userAlert = document.getElementById('user-alert');
-
-function userInput() {
-    userAlert = prompt('Enter your name and become a Veg Head!');
-    document.getElementById('user-input');
+function enterName()
+{
+    let user = prompt('Enter your name and become a Veg Head!');
+    if (user !=null) {
+        document.getElementById('user-name').innerHTML =
+        "HI " + user + ", I'm Tommy Tomato. Can you help me match my veggie friends to their names?"
+    }
 };
-
-addEventListener('load', userAlert)
 
 //Grab game section
 const gameSection = document.getElementById('game-section');
