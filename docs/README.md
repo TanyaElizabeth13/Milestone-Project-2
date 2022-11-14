@@ -4,6 +4,8 @@
 
 The Veg Heads! Match game is a JavaScript based match 2 game aimed at young children. The aim of the game is to match the vegetable characters to their names. The purpose of the game is to get children to learn about vegetables and healthy food choices through a fun game. It is based on the fictional cartoon group called The Veg Heads! 
 
+You can view the live site [here](https://tanyaelizabeth13.github.io/Milestoneproject2/)
+
 ### Table of content:
 1. [User experience](#1-ux)
 * User stories
