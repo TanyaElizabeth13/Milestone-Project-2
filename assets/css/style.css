@@ -1,19 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gluten:wght@200;400;600&family=Hachi+Maru+Pop&family=Poppins:ital,wght@0,200;1,200&display=swap');
 
-.mascot-image {
-    width: 200px;
-    height: 200px;
-}
-
-.mascot-text{
-    font-family: 'Poppins', sans-serif;;
-    color: #465438;
-    font-size: 14px;
-    text-align: center;
-    padding-top: 20px;
-    padding-right: 5px;
-    font-weight: bolder;
-}
+/*Page header*/
 
 h1 {
     font-family: 'gluten', cursive;
@@ -36,6 +23,25 @@ h2 {
     padding-bottom: 25px;
     text-shadow: 1px 1px black;
 }
+
+/*Mascot and game intro area*/
+.mascot-image {
+    width: 200px;
+    height: 200px;
+}
+
+.mascot-text {
+    font-family: 'Poppins', sans-serif;
+    ;
+    color: #465438;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 5px;
+    font-weight: bolder;
+}
+
+/*Game section*/
 
 #game-section {
     display: grid;
@@ -77,21 +83,6 @@ h2 {
     transform: scaleX(-1);
 }
 
-.footer-text {
-    font-family: 'Poppins', sans-serif;;
-    color: #465438;
-    font-size: 10px;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 30px;
-}
-
-.center-flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
 .lives-text {
     font-family: 'Hachi Maru Pop', cursive;
     color: black;
@@ -105,10 +96,7 @@ h2 {
     background-size: cover;
 }
 
-.underline {
-    text-decoration: underline;
-    text-decoration-thickness: 7px;
-}
+/*Random facts section*/
 
 #facts-text {
     font-family: 'Poppins', sans-serif;
@@ -130,6 +118,28 @@ h2 {
     margin-top: 10px;
 }
 
+.didyou-text {
+    font-family: 'Poppins', sans-serif;
+    color: #465438;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+/*Page footer*/
+
+.footer-text {
+    font-family: 'Poppins', sans-serif;
+    ;
+    color: #465438;
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+/*404 page*/
+
 .return-button {
     border-radius: 12px;
     font-family: 'Poppins', sans-serif;
@@ -137,12 +147,17 @@ h2 {
     color: #41ac3c;
 }
 
-.didyou-text {
-    font-family: 'Poppins', sans-serif;
-    color: #465438;
-    font-size: 20px;
-    text-align: center;
-    font-weight: bolder;
+/*General*/
+
+.center-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-thickness: 7px;
 }
 
 /* Media Queries*/
@@ -158,9 +173,10 @@ h2 {
     }
 }
 
-@media screen and (min-width: 1025px){
-    .mascot-text{
-        font-family: 'Poppins', sans-serif;;
+@media screen and (min-width: 1025px) {
+    .mascot-text {
+        font-family: 'Poppins', sans-serif;
+        ;
         color: #465438;
         font-size: 24px;
         text-align: center;
@@ -200,7 +216,7 @@ h2 {
 
 
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     #facts-text {
         font-family: 'Poppins', sans-serif;
         color: #465438;
@@ -217,8 +233,9 @@ h2 {
         font-weight: bolder;
     }
 
-    .mascot-text{
-        font-family: 'Poppins', sans-serif;;
+    .mascot-text {
+        font-family: 'Poppins', sans-serif;
+        ;
         color: #465438;
         font-size: 20px;
         text-align: center;
@@ -230,7 +247,7 @@ h2 {
         width: 320px;
         height: 320px;
     }
-    
+
     #game-section {
         display: grid;
         grid-template-columns: repeat(3, 8rem);
