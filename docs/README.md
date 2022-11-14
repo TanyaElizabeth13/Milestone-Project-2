@@ -153,6 +153,10 @@ The site icon is a small tomato sourced from Icons8.
 
 #### Design differences
 
+Originally the plan was to move the ‘did you know?’ and ‘lives left’ section to the right of the game board on larger screens. After trying this out the idea was dropped as it made the site look messy and asymmetrical, which didn’t go with the minimalistic style of the site. Instead the layout is kept the same as on smaller screens. 
+
+The ‘did you know?’ section was originally intended to generate a random fact every time the game was restarted. The idea was replaced with a ‘click me’ button that generates the facts instead, this increases the interactivity of the site and encourages the users learning. 
+
 ---
 ### 3 Site limitations
 ---
