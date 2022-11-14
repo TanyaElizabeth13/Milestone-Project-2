@@ -59,6 +59,18 @@ As an owner of the game site, I want to teach children about vegetables with sim
 
 #### Site structure
 
+The site will have a very simple and easy to navigate structure as it is aimed at children.
+
+The header of the page will contain the heading and subheading.
+
+Then there will be a section containing an image of the game mascot and some text with him introducing the user to the concept of the game. 
+
+The game area itself will have a colourful background and the 12 game cards set out over 3 columns and 4 rows. 
+
+On smaller screens, under the game section, will be a text area containing randomly generated facts about fruit, veg, and nutrition. These will be on the right of the game on larger screens.  
+
+The footer of the page will just contain the copyright information. 
+
 ---
 ### 2 Design
 ---
