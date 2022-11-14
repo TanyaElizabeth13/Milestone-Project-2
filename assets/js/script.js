@@ -13,7 +13,7 @@ const gameSection = document.getElementById('game-section');
 
 //Generate card images
 const imgData = () => [{
-        imgSrc: "./assets/images/Audrey-aubergine.jpg",
+        imgSrc: "./assets/images/audrey-aubergine.jpg",
         name: "aubergine"
     },
     {
@@ -21,7 +21,7 @@ const imgData = () => [{
         name: "aubergine"
     },
     {
-        imgSrc: "./assets/images/Brenda-broccoli.jpg",
+        imgSrc: "./assets/images/brenda-broccoli.jpg",
         name: "broccoli"
     },
     {
@@ -29,7 +29,7 @@ const imgData = () => [{
         name: "broccoli"
     },
     {
-        imgSrc: "./assets/images/Caroline-carrot.jpg",
+        imgSrc: "./assets/images/caroline-carrot.jpg",
         name: "carrot"
     },
     {
@@ -37,7 +37,7 @@ const imgData = () => [{
         name: "carrot"
     },
     {
-        imgSrc: "./assets/images/Lisa-lettuce.jpg",
+        imgSrc: "./assets/images/lisa-lettuce.jpg",
         name: "lettuce"
     },
     {
@@ -45,7 +45,7 @@ const imgData = () => [{
         name: "lettuce"
     },
     {
-        imgSrc: "./assets/images/Oliver-onion.jpg",
+        imgSrc: "./assets/images/oliver-onion.jpg",
         name: "onion"
     },
     {
@@ -53,7 +53,7 @@ const imgData = () => [{
         name: "onion"
     },
     {
-        imgSrc: "./assets/images/Peter-potato.jpg",
+        imgSrc: "./assets/images/peter-potato.jpg",
         name: "potato"
     },
     {

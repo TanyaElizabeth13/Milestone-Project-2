@@ -129,7 +129,7 @@ The Veg Heads! are fictional character based on this free image found on freepik
 
 **Mascot - Tommy Tomato**
 
-![mainmascot](../assets/images/Tommy-tomato.jpg)
+![mainmascot](../assets/images/tommy-tomato.jpg)
 
 The main mascot is the tomato character, he was chosen as the main one to stand out against the green tones across the page.
 
