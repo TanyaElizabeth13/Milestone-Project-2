@@ -69,7 +69,7 @@ const randomize = () => {
     return cardData;
 };
 
-//Generate cards 
+//Generate cards
 const cardGenerate = () => {
     const cardData = randomize();
     //Create card html
@@ -136,7 +136,7 @@ const checkMatch = (e) => {
     }
 };
 
-//Restart game 
+//Restart game
 const newGame = (message) => {
     let cardData = randomize();
     let fronts = document.querySelectorAll('.front');
