@@ -77,11 +77,11 @@ The footer of the page will just contain the copyright information.
 
 #### Wireframes
 
-![wireframephone](../docs/imgs/Phone.png)
+![wireframephone](../docs/imgs/phone.png)
 
-![wireframepad](../docs/imgs/Pad.png)
+![wireframepad](../docs/imgs/pad.png)
 
-![wireframedesktop](../docs/imgs/Desktop.png)
+![wireframedesktop](../docs/imgs/desktop.png)
 
 #### Colours
 
@@ -123,7 +123,7 @@ Poppins is used for paragraph text throughout the site. It is an easy-to-read fo
 
 **Character - The Veg Heads!**
 
-![mascotveg](../docs/imgs/Veg.jpg)
+![mascotveg](../docs/imgs/veg.jpg)
 
 The Veg Heads! are fictional character based on this free image found on freepik. The image was separated into the individual characters for use in the match game.
 
