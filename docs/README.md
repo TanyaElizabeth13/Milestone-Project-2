@@ -73,15 +73,15 @@ As an owner of the game site, I want to teach children about vegetables with sim
 
 ![colourscheme](../docs/imgs/colours.jpg)
 
-41AC3C
+41AC3C (Green Pantone) is used for the main header of the page and the backs of the cards in the game section. It is also used for the button text both on the main page and the custom 404 page. 
 
-90E274
+90E274 (Light green) is used for the subheading. 
 
-465438
+465438 (Rifle green) is used to contrast the brighter greens. It is used for text throughout the project. 
 
-Black
+Black is used to make certain point on the page stand out, the 'lives left' text and 'click me' button are important information that users need to see clearly. 
 
-White
+White space is used on the page to give a clean look to the game and make sure the rest of the colour scheme looks more vibrant. 
 
 #### Typography
 
@@ -91,14 +91,19 @@ Gluten
 
 ![glutenfont](../docs/imgs/glutenfont.jpg)
 
+Gluten is used solely for the main heading of the page to create a memorable logo for The Veg Heads! brand. 
+
 Hachi Maru Pop
 
 ![hachifont](../docs/imgs/hachifont.jpg)
+
+Hachi Maru Pop is used for the subheading and the ‘lives left’ text. It is a fun font that gives the page a bit of whimsy. 
 
 Poppins
 
 ![poppinsfont](../docs/imgs/poppinsfont.jpg)
 
+Poppins is used for paragraph text throughout the site. It is an easy-to-read font but still ties in with the aesthetic of the game. 
 
 #### Imagery 
 
