@@ -1,17 +1,22 @@
-//Player name alert
-function enterName()
-{
+/***
+ * Player enter name alert
+ */
+function enterName() {
     let user = prompt('Enter your name and become a Veg Head!');
-    if (user !=null) {
+    if (user != null) {
         document.getElementById('user-name').innerHTML =
-        "Hi " + user + ", I'm Tommy Tomato. Can you help me match my veggie friends to their names?"
+            "Hi " + user + ", I'm Tommy Tomato. Can you help me match my veggie friends to their names?"
     }
 };
 
-//Grab game section
+/***
+ * Name game section
+ */
 const gameSection = document.getElementById('game-section');
 
-//Generate card images
+/***
+ * Generate card image data
+ */
 const imgData = () => [{
         imgSrc: "./assets/images/audrey-aubergine.jpg",
         name: "aubergine"
@@ -61,18 +66,21 @@ const imgData = () => [{
         name: "potato"
     },
 ];
-
-//Randomize game cards
+/***
+ * Randomize for game cards
+ */
 const randomize = () => {
     const cardData = imgData();
     cardData.sort(() => Math.random() - 0.5)
     return cardData;
 };
-
-//Generate cards
+/***
+ * Generate game cards
+ * Add imgs to cards
+ * Attach cards to game section
+ */
 const cardGenerate = () => {
     const cardData = randomize();
-    //Create card html
     cardData.forEach((item, index) => {
         const card = document.createElement('div');
         const front = document.createElement('img');
@@ -80,10 +88,8 @@ const cardGenerate = () => {
         card.classList = 'card';
         front.classList = 'front';
         back.classList = 'back';
-        //Add imgs to cards
         front.src = item.imgSrc;
         card.setAttribute('name', item.name);
-        //Attach cards to game section
         gameSection.appendChild(card);
         card.appendChild(front);
         card.appendChild(back);
@@ -95,30 +101,29 @@ const cardGenerate = () => {
     });
 };
 
-// Player lives count
+/***
+ * Player lives counter
+ */
 const livesLeftNo = document.getElementById('lives');
 let livesLeft = 8;
 livesLeftNo.textContent = livesLeft;
 
-//Check selected cards for match
+/***
+ * Check toggled cards for match
+ * Game logic
+ */
 const checkMatch = (e) => {
-    console.log(e);
     const selectedCard = e.target;
     selectedCard.classList.add('selected');
     const turnedCards = document.querySelectorAll('.selected');
     const toggleCard = document.querySelectorAll('.toggleCard');
-    console.log(turnedCards);
-
-    //Game logic
     if (turnedCards.length === 2) {
         if (turnedCards[0].getAttribute('name') === turnedCards[1].getAttribute('name')) {
-            console.log('match');
             turnedCards.forEach((card) => {
                 card.classList.remove('selected');
                 card.style.pointerEvents = "none";
             });
         } else {
-            console.log('no match');
             turnedCards.forEach((card) => {
                 card.classList.remove('selected');
                 setTimeout(() => card.classList.remove('toggleCard'), 1000);
@@ -130,13 +135,13 @@ const checkMatch = (e) => {
             }
         }
     }
-    //Game win
     if (toggleCard.length === 12) {
         newGame("You did it! Thanks, from your friends The Veg Heads!");
     }
 };
-
-//Restart game
+/***
+ * Restarting game
+ */
 const newGame = (message) => {
     let cardData = randomize();
     let fronts = document.querySelectorAll('.front');
@@ -153,7 +158,9 @@ const newGame = (message) => {
 };
 cardGenerate();
 
-// Random trivia button
+/***
+ * Random facts button
+ */
 let factsBtn = document.getElementById('facts-button');
 let btnOutput = document.getElementById('facts-text');
 
@@ -177,9 +184,7 @@ let facts = [
     "The largest of the dinosaurs were vegetarians!",
 ];
 
-factsBtn.addEventListener('click', function(){
+factsBtn.addEventListener('click', function () {
     const randomFacts = facts[Math.floor(Math.random() * facts.length)]
     btnOutput.innerHTML = randomFacts;
-    console.log(randomFacts);
 });
-
