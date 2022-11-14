@@ -23,6 +23,7 @@ h1 {
     color: #41ac3c;
     margin: 0;
     padding: 30px 0px 5px;
+    text-shadow: 2px 2px black;
 }
 
 h2 {
@@ -33,6 +34,7 @@ h2 {
     color: #90e274;
     margin: 0;
     padding-bottom: 25px;
+    text-shadow: 1px 1px black;
 }
 
 #game-section {
