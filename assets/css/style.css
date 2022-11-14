@@ -144,3 +144,99 @@ h2 {
     text-align: center;
     font-weight: bolder;
 }
+
+/* Media Queries*/
+
+@media screen and (max-width: 350px) {
+    #game-section {
+        display: grid;
+        grid-template-columns: repeat(3, 6rem);
+        grid-template-rows: repeat(4, 6rem);
+        grid-gap: 0.2rem;
+        perspective: 800px;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    .mascot-text{
+        font-family: 'Poppins', sans-serif;;
+        color: #465438;
+        font-size: 24px;
+        text-align: center;
+        padding: 94px 18px 0px 8px;
+        font-weight: bolder;
+        margin-right: 40px;
+    }
+
+    .mascot-image {
+        width: 350px;
+        height: 350px;
+        margin-left: 60px;
+    }
+
+    h2 {
+        font-family: 'Hachi Maru Pop', cursive;
+        font-weight: 400;
+        text-align: center;
+        font-size: 60px;
+        color: #90e274;
+        margin: 0;
+        padding-bottom: 25px;
+        text-shadow: 1px 1px black;
+    }
+
+    h1 {
+        font-family: 'gluten', cursive;
+        font-weight: 600;
+        text-align: center;
+        font-size: 130px;
+        color: #41ac3c;
+        margin: 0;
+        padding: 30px 0px 5px;
+        text-shadow: 2px 2px black;
+    }
+}
+
+
+
+@media screen and (min-width: 768px){
+    #facts-text {
+        font-family: 'Poppins', sans-serif;
+        color: #465438;
+        font-size: 18px;
+        text-align: center;
+        font-weight: bolder;
+    }
+
+    .didyou-text {
+        font-family: 'Poppins', sans-serif;
+        color: #465438;
+        font-size: 25px;
+        text-align: center;
+        font-weight: bolder;
+    }
+
+    .mascot-text{
+        font-family: 'Poppins', sans-serif;;
+        color: #465438;
+        font-size: 20px;
+        text-align: center;
+        padding: 94px 18px 0px 8px;
+        font-weight: bolder;
+    }
+
+    .mascot-image {
+        width: 320px;
+        height: 320px;
+    }
+    
+    #game-section {
+        display: grid;
+        grid-template-columns: repeat(3, 8rem);
+        grid-template-rows: repeat(4, 8rem);
+        grid-gap: 1.4rem;
+        perspective: 800px;
+        padding-bottom: 40px;
+    }
+}
