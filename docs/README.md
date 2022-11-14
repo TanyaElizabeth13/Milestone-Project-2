@@ -105,7 +105,7 @@ All fonts used are imported and sourced from Google fonts.
 
 ![glutenfont](../docs/imgs/glutenfont.jpg)
 
-Gluten is used solely for the main heading of the page to create a memorable logo for The Veg Heads! brand. 
+Gluten is used for the main heading of the page to create a memorable logo for The Veg Heads! brand. It is also used for the character name cards within the game.
 
 **Hachi Maru Pop**
 
@@ -132,6 +132,12 @@ The Veg Heads! are fictional character based on this free image found on freepik
 ![mainmascot](../assets/images/tommy-tomato.jpg)
 
 The main mascot is the tomato character, he was chosen as the main one to stand out against the green tones across the page.
+
+**Non character cards**
+
+![cardfronts](../docs/imgs/cardfronts.jpg)
+
+The matches for the character cards are their names, these where made in gitpod and screen grabbed. 
 
 **Game background**
 
