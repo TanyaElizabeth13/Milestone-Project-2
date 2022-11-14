@@ -4,7 +4,7 @@ function enterName()
     let user = prompt('Enter your name and become a Veg Head!');
     if (user !=null) {
         document.getElementById('user-name').innerHTML =
-        "HI " + user + ", I'm Tommy Tomato. Can you help me match my veggie friends to their names?"
+        "Hi " + user + ", I'm Tommy Tomato. Can you help me match my veggie friends to their names?"
     }
 };
 
