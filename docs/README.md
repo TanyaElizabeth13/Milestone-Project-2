@@ -87,19 +87,19 @@ White space is used on the page to give a clean look to the game and make sure t
 
 All fonts used are imported and sourced from Google fonts. 
 
-Gluten
+**Gluten**
 
 ![glutenfont](../docs/imgs/glutenfont.jpg)
 
 Gluten is used solely for the main heading of the page to create a memorable logo for The Veg Heads! brand. 
 
-Hachi Maru Pop
+**Hachi Maru Pop**
 
 ![hachifont](../docs/imgs/hachifont.jpg)
 
 Hachi Maru Pop is used for the subheading and the ‘lives left’ text. It is a fun font that gives the page a bit of whimsy. 
 
-Poppins
+**Poppins**
 
 ![poppinsfont](../docs/imgs/poppinsfont.jpg)
 
@@ -107,9 +107,29 @@ Poppins is used for paragraph text throughout the site. It is an easy-to-read fo
 
 #### Imagery 
 
-Mascots - The Veg Heads! 
+**Character - The Veg Heads!**
 
 ![mascotveg](../docs/imgs/Veg.jpg)
+
+The Veg Heads! are fictional character based on this free image found on freepik. The image was separated into the individual characters for use in the match game.
+
+**Mascot - Tommy Tomato**
+
+![mainmascot](../assets/images/Tommy-tomato.jpg)
+
+The main mascot is the tomato character, he was chosen as the main one to stand out against the green tones across the page.
+
+**Game background**
+
+![vegbackground](../assets/images/veg-background.jpg)
+
+The game board background is a hand drawn vegetable free background from vecteezy. It is muted enough on colour as to not make the game area hard to see. 
+
+**Favicon**
+
+![favicon](../docs/imgs/favicon.jpg)
+
+The site icon is a small tomato sourced from Icons8. 
 
 #### Design differences
 
