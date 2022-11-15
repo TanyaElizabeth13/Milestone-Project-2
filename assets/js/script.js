@@ -130,7 +130,7 @@ const checkMatch = (e) => {
             livesLeft--;
             livesLeftNo.textContent = livesLeft;
             if (livesLeft === 0) {
-                newGame("Oh no! You ran out of lives. Try again!");
+                setTimeout(() => newGame("Oh no! You ran out of lives. Try again!"), 1000);
             }
         }
     }
