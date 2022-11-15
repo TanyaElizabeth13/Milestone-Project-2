@@ -89,9 +89,11 @@ The footer of the page will just contain the copyright information.
 
 ![colourscheme](../docs/imgs/colours.jpg)
 
-41AC3C (Green Pantone) is used for the main header of the page and the backs of the cards in the game section. It is also used for the button text both on the main page and the custom 404 page. 
+41AC3C (Green pantone) is used for the backs of the cards in the game section. It is also used for the button text both on the custom 404 page. 
 
- 296415(Dark green) is used for the subheading. 
+055C00 (Lincoln green) is used for the main header of the page. 
+
+296415(Dark green) is used for the subheading. 
 
 465438 (Rifle green) is used to contrast the brighter greens. It is used for text throughout the project. 
 
