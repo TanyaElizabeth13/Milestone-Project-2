@@ -153,9 +153,11 @@ h2 {
     justify-content: center;
 }
 
-.underline {
-    text-decoration: underline;
-    text-decoration-thickness: 7px;
+.border {
+    border: black;
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 8px;
 }
 
 /* Media Queries*/
