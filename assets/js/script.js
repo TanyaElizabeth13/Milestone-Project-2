@@ -19,51 +19,63 @@ const gameSection = document.getElementById('game-section');
  */
 const imgData = () => [{
         imgSrc: "./assets/images/audrey-aubergine.jpg",
-        name: "aubergine"
+        name: "aubergine",
+        alt: "audrey aubergine picture"
     },
     {
         imgSrc: "./assets/images/audrey-text.jpg",
-        name: "aubergine"
+        name: "aubergine",
+        alt: "audrey aubergine text"
     },
     {
         imgSrc: "./assets/images/brenda-broccoli.jpg",
-        name: "broccoli"
+        name: "broccoli",
+        alt: "brenda broccoli picture"
     },
     {
         imgSrc: "./assets/images/brenda-text.jpg",
-        name: "broccoli"
+        name: "broccoli",
+        alt: "brenda broccoli text"
     },
     {
         imgSrc: "./assets/images/caroline-carrot.jpg",
-        name: "carrot"
+        name: "carrot",
+        alt: "caroline carrot picture"
     },
     {
         imgSrc: "./assets/images/caroline-text.jpg",
-        name: "carrot"
+        name: "carrot",
+        alt: "caroline carrot text"
     },
     {
         imgSrc: "./assets/images/lisa-lettuce.jpg",
-        name: "lettuce"
+        name: "lettuce",
+        alt: "lisa lettuce picture"
     },
     {
         imgSrc: "./assets/images/lisa-text.jpg",
-        name: "lettuce"
+        name: "lettuce",
+        alt: "lisa lettuce text"
     },
     {
         imgSrc: "./assets/images/oliver-onion.jpg",
-        name: "onion"
+        name: "onion",
+        alt: "oliver onion picture"
     },
     {
         imgSrc: "./assets/images/oliver-text.jpg",
-        name: "onion"
+        name: "onion",
+        alt: "oliver onion text"
     },
     {
         imgSrc: "./assets/images/peter-potato.jpg",
-        name: "potato"
+        name: "potato",
+        alt:"peter potato picture"
     },
     {
         imgSrc: "./assets/images/peter-text.jpg",
-        name: "potato"
+        name: "potato",
+        alt: "peter potato text"
     },
 ];
 /***
@@ -90,7 +102,7 @@ const cardGenerate = () => {
         back.classList = 'back';
         front.src = item.imgSrc;
         card.setAttribute('name', item.name);
-        front.setAttribute('alt', item.name);
+        front.setAttribute('alt', item.alt);
         gameSection.appendChild(card);
         card.appendChild(front);
         card.appendChild(back);
