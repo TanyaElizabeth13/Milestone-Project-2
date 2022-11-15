@@ -93,7 +93,6 @@ const cardGenerate = () => {
         gameSection.appendChild(card);
         card.appendChild(front);
         card.appendChild(back);
-
         card.addEventListener('click', (e) => {
             card.classList.toggle('toggleCard');
             checkMatch(e);
@@ -136,7 +135,7 @@ const checkMatch = (e) => {
         }
     }
     if (toggleCard.length === 12) {
-        newGame("You did it! Thanks, from your friends The Veg Heads!");
+        setTimeout(() => newGame("You did it! Thanks, from your friends The Veg Heads!"), 1000);
     }
 };
 /***
