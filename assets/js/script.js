@@ -90,6 +90,7 @@ const cardGenerate = () => {
         back.classList = 'back';
         front.src = item.imgSrc;
         card.setAttribute('name', item.name);
+        front.setAttribute('alt', item.name);
         gameSection.appendChild(card);
         card.appendChild(front);
         card.appendChild(back);
