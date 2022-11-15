@@ -1,7 +1,7 @@
 /***
- * Player enter name alert
+ * Player enter name alert on load
  */
-function enterName() {
+window.onload = function enterName() {
     let user = prompt('Enter your name and become a Veg Head!');
     if (user != null) {
         document.getElementById('user-name').innerHTML =
