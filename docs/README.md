@@ -215,6 +215,39 @@ Microsoft Excel - The software used to make the testing spreadsheet.
 ### 6 Testing
 ---
 
+Testing completed for this project covers the areas of: responsivity, features, accessibility, performance, and validator testing. Tests where completed regularly at every stage of development and then at the final stage before submitting. 
+
+<details>
+<summary>Full testing spreadsheet</summary>
+
+![responsivitytesting](../docs/imgs/responsivitytest.jpg)
+
+![featurestesting]()
+
+![accessibilitytesting](../docs/imgs/accessabilitytest.jpg)
+
+![performancetesting](../docs/imgs/performancetest.jpg)
+
+![validatortesting](../docs/imgs/validatortest.jpg)
+
+</details>
+
+<details>
+<summary>Download test results</summary>
+
+[xlsx file]()
+
+</details>
+
+**Key results:**
+
+Test A2 is showing some alerts in wave. This is just a suggestion by wave to make some text a header even though it is paragraph text. This alert does not show if the ‘click me’ button is pressed before running the page through wave. 
+
+Performance testing (P1) comes back as 93 in lighthouse but may be higher or lower on other machines depending on internet speeds.
+ 
+The validator test V4 is showing several warnings when the code is ran through JSLint. These have been left in as they are required for the game to run as it does, fixing some of these errors will make the game less accessible or make the code unnecessarily longer.
+
+
 ---
 ### 7 Deploymemt
 ---
