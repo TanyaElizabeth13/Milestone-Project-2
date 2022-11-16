@@ -256,18 +256,19 @@ This project was initially created in Github using the Code Institute’s full t
 
 Version control was accomplished through the use of Github by pushing to the repository using the following:
 
-Git add was used to stage files before committing.
-Git commit -m was used to add commit messages.
-Git push was used to push code to the repo.
+- Git add was used to stage files before committing.  
+- Git commit -m was used to add commit messages.  
+- Git push was used to push code to the repo.  
+
 The project was then deployed using Github Pages by doing the following steps:
 
-Open repository
-Click Settings
-Click Pages on the left-hand side
-In Source select deploy from branch
-Select correct branch and root
-Click save
-Once generated click the link to the live site
+- Open repository  
+- Click Settings  
+- Click Pages on the left-hand side  
+- In Source select deploy from branch  
+- Select correct branch and root  
+- Click save  
+- Once generated click the link to the live site  
 
 ---
 ### 8 Credits
