@@ -3,9 +3,9 @@
  */
 window.onload = function enterName() {
     let user = prompt('Enter your name and become a Veg Head!');
-    if (user != null) {
+    if (user !== null) {
         document.getElementById('user-name').innerHTML =
-            "Hi " + user + ", I'm Tommy Tomato. Can you help me match my veggie friends to their names?"
+            "Hi " + user + ", I'm Tommy Tomato. Can you help me match my veggie friends to their names?";
     }
 };
 
@@ -76,14 +76,14 @@ const imgData = () => [{
         imgSrc: "./assets/images/peter-text.jpg",
         name: "potato",
         alt: "peter potato text"
-    },
+    }
 ];
 /***
  * Randomize for game cards
  */
 const randomize = () => {
     const cardData = imgData();
-    cardData.sort(() => Math.random() - 0.5)
+    cardData.sort(() => Math.random() - 0.5);
     return cardData;
 };
 /***
@@ -193,10 +193,10 @@ let facts = [
     "Durian fruit is so smelly it is banned in parts of Asia.",
     "Apples, pears, cherries, and plums are from the same plant family as roses.",
     "Strawberries are not really berries because they have their seeds on the outside.",
-    "The largest of the dinosaurs were vegetarians!",
+    "The largest of the dinosaurs were vegetarians!"
 ];
 
 factsBtn.addEventListener('click', function () {
-    const randomFacts = facts[Math.floor(Math.random() * facts.length)]
+    const randomFacts = facts[Math.floor(Math.random() * facts.length)];
     btnOutput.innerHTML = randomFacts;
 });
