@@ -235,6 +235,19 @@ The 404 page is very simple and contains the mascot prompting the user to return
 
 #### Future
 
+Some possible future features for this project include:
+
+- Tie ins with other Veg Head! branded content for example video content, competitions, and other games based around the same group.
+
+- Links to Veg Heads! social media and shopping sites. 
+
+- Adding extra levels that get incrementally more difficult as they go on. 
+
+- A saved high score section so users can compare their memory skills with others.
+
+- A timer could be added for an extra challenge. 
+
+- A feedback button could be added that takes users to a form to send their thoughts about the site or the game itself. 
 
 
 ---
