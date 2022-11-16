@@ -249,6 +249,8 @@ Some possible future features for this project include:
 
 - A feedback button could be added that takes users to a form to send their thoughts about the site or the game itself. 
 
+- The alerts can be changed to modals, I chose to keep them as alerts as I did not want to use bootstrap for this project as I used it heavily in my MP1. 
+
 
 ---
 ### 5 Technologies used
