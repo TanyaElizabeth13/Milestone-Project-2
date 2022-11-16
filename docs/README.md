@@ -169,7 +169,73 @@ The ‘did you know?’ section was originally intended to generate a random fac
 ### 4 Features
 ---
 
+#### Current
+
+Username alert
+
+![usernamealert](../docs/imgs/onloadalert.jpg)
+
+On the site loading up the user is greeted with an alert in which they can enter their name for use in the site. This is the first part of getting the user engaged with the site. 
+
+Header
+
+![header](../docs/imgs/header.jpg)
+
+The header contains both the Veg Heads! logo and the name of the game. It also introduces the game mascot and what the purpose of the game is. Within this introduction is the users name that is generated in the greeting via .innerHTML. If the user does not want to put in a name it is left blank button the intro continues to makes sense. 
+
+Game
+
+![gameboard](../docs/imgs/gameboard.jpg)
+
+The game feature itself has 12 match cards, 6 picture and 6 text. The card backs are brightly coloured, and the card faces are minimalistic, so they stand out against the background. When a card is turned it is toggled with the class ‘selected’, when two selected cards have matching names they remain turned upright, if the two selected cards do not have matching name attributes then they flip back over to be clicked again later. All cards flip with a fun animation. 
+The background image on the game board is simple as to not defer from the game cards, but still colourful enough to have the game board feel like the main point of the page. 
+
+
+Lives left counter
+
+![livescounter](../docs/imgs/livescounter.jpg)
+
+The lives left counter starts at 8 and goes down to zero with each incorrect move using a decrement--. The background of the text area is white to make is more visible against the background image. If the player loses the game the lives counter is refreshed back up to 8 when the game restarts. 
+
+Win alert
+
+![winalert](../docs/imgs/winalert.jpg)
+
+If the user wins the game, they are congratulated by an alert that thanks them for helping. On the user pressing ok the newGame variable starts the game again.
+
+Lose alert 
+
+![losealert](../docs/imgs/losealert.jpg)
+
+If the use losses the game, an alert pops up to tell them to try again. Again, on the user pressing the ok button the alert closes and the newGame variable starts the game again. 
+
+Trivia area
+
+![triviaarea](../docs/imgs/triviasection.jpg)
+
+Under the game board there is a trivia area that shows a random fact about vegetables, fruit, or nutrition with the heading ‘Did you know?’. These facts are generated when the user clicks the button below it. 
+
+Click me button 
+
+![clickme](../docs/imgs/clickmebutton.jpg)
+
+When the user clicks the ‘Click me!’ button a random fact from the ‘facts’ array is revealed. This button is another level of interactivity to get the user to engage with the site and encourage learning. 
+
+Footer
+
+![footer](../docs/imgs/footer.jpg)
+
+The footer contains the fictional copyright of the Veg Heads! to as there would be on a real-world site.
+
+Custom 404 page 
+
+![404page](../docs/imgs/404page.jpg)
+
+The 404 page is very simple and contains the mascot prompting the user to return to the index.html page via a return home button.
+
 #### Future
+
+
 
 ---
 ### 5 Technologies used
