@@ -210,6 +210,16 @@ h2 {
         padding: 30px 0px 5px;
         text-shadow: 2px 2px black;
     }
+
+    .footer-text {
+        font-family: 'Poppins', sans-serif;
+        ;
+        color: #465438;
+        font-size: 18px;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 30px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -251,6 +261,16 @@ h2 {
         grid-gap: 1.4rem;
         perspective: 800px;
         padding-bottom: 40px;
+    }
+
+    .footer-text {
+        font-family: 'Poppins', sans-serif;
+        ;
+        color: #465438;
+        font-size: 14px;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 30px;
     }
 }
 
