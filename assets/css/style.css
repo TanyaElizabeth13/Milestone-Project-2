@@ -126,7 +126,7 @@ h2 {
 
 /*Page footer*/
 
-.footer-text {
+h4 {
     font-family: 'Poppins', sans-serif;
     ;
     color: #465438;
@@ -211,7 +211,7 @@ h2 {
         text-shadow: 2px 2px black;
     }
 
-    .footer-text {
+    h4 {
         font-family: 'Poppins', sans-serif;
         ;
         color: #465438;
@@ -263,7 +263,7 @@ h2 {
         padding-bottom: 40px;
     }
 
-    .footer-text {
+    h4 {
         font-family: 'Poppins', sans-serif;
         ;
         color: #465438;
