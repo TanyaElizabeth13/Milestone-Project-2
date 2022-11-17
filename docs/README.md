@@ -316,7 +316,7 @@ Microsoft Excel - The software used to make the testing spreadsheet.
 ### 5 Testing
 ---
 
->As a first time user of the game, I want to be able to play the game bug free. 
+>As a first time user of the game, I want to be able to play the game bug free.  
 >As a first time user of the game, I want to be able to play the game on whatever screen size I may be on. 
 
 Testing completed for this project covers the areas of: responsivity, features, accessibility, performance, and validator testing. Tests where completed regularly at every stage of development and then at the final stage before submitting. 
@@ -372,7 +372,7 @@ The validator test V4 is showing several warnings when the code is ran through J
 ### 6 Deployment
 ---
 
-This project was initially created in Github using the Code Institute’s full template
+This project was initially created in Github using the Code Institute’s [full template](https://github.com/Code-Institute-Org/gitpod-full-template) 
 
 Version control was accomplished through the use of Github by pushing to the repository using the following:
 
@@ -394,3 +394,23 @@ The project was then deployed using Github Pages by doing the following steps:
 ### 7 Credits
 ---
 
+All text content was written by me. 
+The Veg Heads! is a fictional brand thought up for use in this project. 
+
+Links to free use images sourced for this project:
+
+[Veg Heads mascots](https://www.freepik.com/free-vector/multicolor-cute-vegetable-mascots-flat-icon-set_13146603.htm#query=vegetable%20characters&position=0&from_view=search&track=sph)
+
+[Background image](https://www.vecteezy.com/vector-art/8715215-vegetable-pattern-seamless-drawing-colorful-raw-wallpaper-baclkground)
+
+[Favicon](https://icons8.com/icon/97442/tomato)
+
+Fonts are all taken from Google fonts and are also free use. 
+
+**Acknowledgments**
+
+Thank you to:
+My mentor Daisy for the guidance and always answering my questions.   
+Kera from the slack community for the feedback on this project.    
+Stack overflow for the answer to every coding question you can think of.   
+Lisa, Samantha, and Sarah for testing the game at all development stages to provide real world feedback. 
