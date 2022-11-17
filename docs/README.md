@@ -18,13 +18,13 @@ You can view the live site [here](https://tanyaelizabeth13.github.io/Milestonepr
 * Typography
 * Imagery
 * Design differences
-3. [Features](#4-features)
+3. [Features](#3-features)
 * Existing
 * Future
-4. [Technologies used](#5-technologies-used)
-5. [Testing](#6-testing)
-6. [Deployment](#7-deployment)
-7. [Credits](#8-credits)
+4. [Technologies used](#4-technologies-used)
+5. [Testing](#5-testing)
+6. [Deployment](#6-deployment)
+7. [Credits](#7-credits)
 
 ---
 ### 1 UX
@@ -89,15 +89,15 @@ The footer of the page will just contain the copyright information.
 
 ![colourscheme](../docs/imgs/colours.jpg)
 
-41AC3C (Green pantone) is used for the backs of the cards in the game section. It is also used for the button text both on the custom 404 page. 
+41AC3C (Green pantone) is used for the backs of the cards in the game section. It is also used for the button text on the custom 404 page. 
 
 055C00 (Lincoln green) is used for the main header of the page. 
 
 296415(Dark green) is used for the subheading. 
 
-465438 (Rifle green) is used to contrast the brighter greens. It is used for text throughout the project. 
+465438 (Rifle green) is used to contrast the truer greens. It is used for text throughout the project. 
 
-Black is used to make certain point on the page stand out, the 'lives left' text and 'click me' button are important information that users need to see clearly. 
+Black is used to make certain points on the page stand out, the 'lives left' text and 'click me' button are important information that users need to see clearly. 
 
 White space is used on the page to give a clean look to the game and make sure the rest of the colour scheme looks more vibrant. 
 
@@ -125,11 +125,11 @@ Poppins is used for paragraph text throughout the site. It is an easy-to-read fo
 
 #### Imagery 
 
-**Character - The Veg Heads!**
+**Characters - The Veg Heads!**
 
 ![mascotveg](../docs/imgs/veg.jpg)
 
-The Veg Heads! are fictional character based on this free image found on freepik. The image was separated into the individual characters for use in the match game.
+The Veg Heads! are fictional characters based on this free image found on freepik. The image was separated into the individual characters for use in the match game.
 
 **Mascot - Tommy Tomato**
 
@@ -149,7 +149,7 @@ The matches for the character cards are their names, these where made in gitpod 
 
 ![vegbackground](../assets/images/veg-background.jpg)
 
-The game board background is a hand drawn vegetable free background from vecteezy. It is muted enough on colour as to not make the game area hard to see. 
+The game board background is a hand drawn vegetable background from vecteezy. It is muted enough in colour as to not make the game area hard to see. 
 
 **Favicon**
 
@@ -181,7 +181,7 @@ Header
 
 ![header](../docs/imgs/header.jpg)
 
-The header contains both the Veg Heads! logo and the name of the game. It also introduces the game mascot and what the purpose of the game is. Within this introduction is the users name that is generated in the greeting via .innerHTML. If the user does not want to put in a name it is left blank button the intro continues to makes sense. 
+The header contains both the Veg Heads! logo and the name of the game. It also introduces the game mascot and what the purpose of the game is. Within this introduction is the users name that is generated in the greeting via .innerHTML. If the user does not want to put in a name it is left blank but the intro text continues to makes sense. 
 
 >As a first time user of the game, I want to easily understand the aims of the game. 
 
@@ -212,7 +212,7 @@ Lose alert
 
 ![losealert](../docs/imgs/losealert.jpg)
 
-If the use losses the game, an alert pops up to tell them to try again. Again, on the user pressing the ok button the alert closes and the newGame variable starts the game again. 
+If the user losses the game, an alert pops up to tell them to try again. As before, on the user pressing the ok button the alert closes and the newGame variable starts the game again. 
 
 >As a returning user of the game, I want to be able to start the game again.
 
@@ -220,7 +220,7 @@ Randomise
 
 ![randomise](../docs/imgs/randomise.jpg)
 
-When the game restarts the randomize function makes sure that the cards are different every round so the user is not playing the same game again.
+When the game restarts the 'randomize' function makes sure that the cards are different every round so the user is not playing the same game again.
 
 >As a returning user of the game, I want the matches to reshuffle so I am not playing the same cards again.
 
@@ -243,7 +243,7 @@ Footer
 
 ![footer](../docs/imgs/footer.jpg)
 
-The footer contains the fictional copyright of the Veg Heads! to as there would be on a real-world site.
+The footer contains the fictional copyright of the Veg Heads! as there would be on a real-world site.
 
 Custom 404 page 
 
@@ -255,7 +255,7 @@ The 404 page is very simple and contains the mascot prompting the user to return
 
 Some possible future features for this project include:
 
-- Tie ins with other Veg Head! branded content for example video content, competitions, and other games based around the same group.
+- Tie ins with other Veg Heads! branded content for example video content, competitions, and other games based around the same group.
 
 - Links to Veg Heads! social media and shopping sites. 
 
@@ -308,6 +308,8 @@ JSLint - The analysis tool used to check JS for errors.
 
 Technsini – The mockup generator site used to create mockup images in README.md.
 
+Canva - The site used to make image collages for the read me. 
+
 Microsoft Word - The software used to write README.md, mainly used for spell check purposes.
 
 Microsoft Excel - The software used to make the testing spreadsheet.
@@ -319,7 +321,7 @@ Microsoft Excel - The software used to make the testing spreadsheet.
 >As a first time user of the game, I want to be able to play the game bug free.  
 >As a first time user of the game, I want to be able to play the game on whatever screen size I may be on. 
 
-Testing completed for this project covers the areas of: responsivity, features, accessibility, performance, and validator testing. Tests where completed regularly at every stage of development and then at the final stage before submitting. 
+Testing completed for this project covered the areas of: responsivity, features, accessibility, performance, and validator testing. Tests where completed regularly at every stage of development and then at the final stage before submitting. 
 
 <details>
 <summary>Full testing spreadsheet</summary>
