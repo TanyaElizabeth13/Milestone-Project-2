@@ -18,14 +18,13 @@ You can view the live site [here](https://tanyaelizabeth13.github.io/Milestonepr
 * Typography
 * Imagery
 * Design differences
-3. [Site limitations](#3-site-limitations)
-4. [Features](#4-features)
+3. [Features](#4-features)
 * Existing
 * Future
-5. [Technologies used](#5-technologies-used)
-6. [Testing](#6-testing)
-7. [Deployment](#7-deploymemt)
-8. [Credits](#8-credits)
+4. [Technologies used](#5-technologies-used)
+5. [Testing](#6-testing)
+6. [Deployment](#7-deployment)
+7. [Credits](#8-credits)
 
 ---
 ### 1 UX
@@ -162,11 +161,7 @@ Originally the plan was to move the ‘did you know?’ and ‘lives left’ sec
 The ‘did you know?’ section was originally intended to generate a random fact every time the game was restarted. The idea was replaced with a ‘click me’ button that generates the facts instead, this increases the interactivity of the site and encourages the users learning. 
 
 ---
-### 3 Site limitations
----
-
----
-### 4 Features
+### 3 Features
 ---
 
 #### Current
@@ -253,7 +248,7 @@ Some possible future features for this project include:
 
 
 ---
-### 5 Technologies used
+### 4 Technologies used
 ---
 
 HTML 5 – The coding language used to structure the site and its content.
@@ -284,6 +279,8 @@ W3 Validator – The validator used to check all pages for syntax errors.
 
 Jigsaw validator – The validator used to check all pages for CSS syntax errors.
 
+JSHint - The analysis tool used to check for JS errors during development.
+
 JSLint - The analysis tool used to check JS for errors. 
 
 Technsini – The mockup generator site used to create mockup images in README.md.
@@ -293,7 +290,7 @@ Microsoft Word - The software used to write README.md, mainly used for spell che
 Microsoft Excel - The software used to make the testing spreadsheet.
 
 ---
-### 6 Testing
+### 5 Testing
 ---
 
 Testing completed for this project covers the areas of: responsivity, features, accessibility, performance, and validator testing. Tests where completed regularly at every stage of development and then at the final stage before submitting. 
@@ -303,7 +300,7 @@ Testing completed for this project covers the areas of: responsivity, features, 
 
 ![responsivitytesting](../docs/imgs/responsivitytest.jpg)
 
-![featurestesting]()
+![featurestesting](../docs/imgs/featurestest.png)
 
 ![accessibilitytesting](../docs/imgs/accessabilitytest.jpg)
 
@@ -316,7 +313,7 @@ Testing completed for this project covers the areas of: responsivity, features, 
 <details>
 <summary>Download test results</summary>
 
-[xlsx file]()
+[xlsx file](MP2%20Testing.xlsx)
 
 </details>
 
@@ -328,9 +325,25 @@ Performance testing (P1) comes back as 93 in lighthouse but may be higher or low
  
 The validator test V4 is showing several warnings when the code is ran through JSLint. These have been left in as they are required for the game to run as it does, fixing some of these errors will make the game less accessible or make the code unnecessarily longer.
 
+**Test evidence**
+
+<details>
+<summary>Testing evidence imgs</summary>
+
+![wavetest](../docs/imgs/wavetest.jpg)
+
+![lighthousetest](../docs/imgs/lighthousetest.jpg)
+
+![htmltest](../docs/imgs/htmltest.jpg)
+
+![csstest](../docs/imgs/jigsawtest.jpg)
+
+![jstest](../docs/imgs/jstest.jpg)
+
+</details>
 
 ---
-### 7 Deploymemt
+### 6 Deployment
 ---
 
 This project was initially created in Github using the Code Institute’s full template
@@ -352,6 +365,6 @@ The project was then deployed using Github Pages by doing the following steps:
 - Once generated click the link to the live site  
 
 ---
-### 8 Credits
+### 7 Credits
 ---
 
