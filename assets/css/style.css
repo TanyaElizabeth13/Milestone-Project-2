@@ -146,8 +146,9 @@ h4 {
     color: #41ac3c;
 }
 
-a:visited {
+.return-button a {
     text-decoration: none;
+    color: inherit;
 }
 
 /*General*/
