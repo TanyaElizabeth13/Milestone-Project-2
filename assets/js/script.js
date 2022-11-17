@@ -70,7 +70,7 @@ const imgData = () => [{
     {
         imgSrc: "./assets/images/peter-potato.jpg",
         name: "potato",
-        alt:"peter potato picture"
+        alt: "peter potato picture"
     },
     {
         imgSrc: "./assets/images/peter-text.jpg",
@@ -78,6 +78,7 @@ const imgData = () => [{
         alt: "peter potato text"
     }
 ];
+
 /***
  * Randomize for game cards
  */
@@ -86,6 +87,7 @@ const randomize = () => {
     cardData.sort(() => Math.random() - 0.5);
     return cardData;
 };
+
 /***
  * Generate game cards
  * Add imgs to cards
@@ -151,6 +153,7 @@ const checkMatch = (e) => {
         setTimeout(() => newGame("You did it! Thanks, from your friends The Veg Heads!"), 1000);
     }
 };
+
 /***
  * Restarting game
  */

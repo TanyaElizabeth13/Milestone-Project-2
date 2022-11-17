@@ -10,17 +10,17 @@ You can view the live site [here](https://tanyaelizabeth13.github.io/Milestonepr
 
 ### Table of content:
 1. [User experience](#1-ux)
-* User stories
-* Site structure
+    * User stories
+    * Site structure
 2. [Design](#2-design)
-* Wireframes
-* Colours
-* Typography
-* Imagery
-* Design differences
+    * Wireframes
+    * Colours
+    * Typography
+    * Imagery
+    * Design differences
 3. [Features](#3-features)
-* Existing
-* Future
+    * Existing features
+    * Future features
 4. [Technologies used](#4-technologies-used)
 5. [Testing](#5-testing)
 6. [Deployment](#6-deployment)
@@ -167,7 +167,7 @@ The ‘did you know?’ section was originally intended to generate a random fac
 ### 3 Features
 ---
 
-#### Current
+#### Current features
 
 Username alert
 
@@ -251,7 +251,7 @@ Custom 404 page
 
 The 404 page is very simple and contains the mascot prompting the user to return to the index.html page via a return home button.
 
-#### Future
+#### Future features
 
 Some possible future features for this project include:
 
@@ -268,7 +268,6 @@ Some possible future features for this project include:
 - A feedback button could be added that takes users to a form to send their thoughts about the site or the game itself. 
 
 - The alerts can be changed to modals, I chose to keep them as alerts as I did not want to use bootstrap for this project as I used it heavily in my MP1. 
-
 
 ---
 ### 4 Technologies used
@@ -411,8 +410,9 @@ Fonts are all taken from Google fonts and are also free use.
 
 **Acknowledgments**
 
-Thank you to:
-My mentor Daisy for the guidance and always answering my questions.   
+Thank you to:   
+My mentor Daisy for the guidance and always answering my questions.    
+Pasquale from COB college for his understanding.   
 Kera from the slack community for the feedback on this project.    
 Stack overflow for the answer to every coding question you can think of.   
 Lisa, Samantha, and Sarah for testing the game at all development stages to provide real world feedback. 
