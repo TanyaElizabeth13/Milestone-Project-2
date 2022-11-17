@@ -37,12 +37,13 @@ As a first time user of the game, I want to be able to put my name into the game
 
 As a first time user of the game, I want to be able to start the game easily.
 
-As a first time user of the game, I want to easily understand the rules and aims of the game. 
+As a first time user of the game, I want to easily understand the aims of the game. 
 
 As a first time user of the game, I want to be able to play the game bug free. 
 
 As a first time user of the game, I want to be able to play the game on whatever screen size I may be on. 
 
+As a first time user of the game, I want to learn about vegetables while having fun.
 
 **Returning users:**
 
@@ -54,7 +55,7 @@ As a returning user of the game, I want my lives to reset when I replay the game
 
 **Site owners:**
 
-As an owner of the game site, I want to promote healthy eating for children
+As an owner of the game site, I want to promote healthy eating for children through colourful characters.
 
 As an owner of the game site, I want to teach children about vegetables with simple facts.
 
@@ -136,6 +137,8 @@ The Veg Heads! are fictional character based on this free image found on freepik
 
 The main mascot is the tomato character, he was chosen as the main one to stand out against the green tones across the page.
 
+>As an owner of the game site, I want to promote healthy eating for children through colourful characters.
+
 **Non character cards**
 
 ![cardfronts](../docs/imgs/cardfronts.jpg)
@@ -172,25 +175,32 @@ Username alert
 
 On the site loading up the user is greeted with an alert in which they can enter their name for use in the site. This is the first part of getting the user engaged with the site. 
 
+>As a first time user of the game, I want to be able to put my name into the game as the player.
+
 Header
 
 ![header](../docs/imgs/header.jpg)
 
 The header contains both the Veg Heads! logo and the name of the game. It also introduces the game mascot and what the purpose of the game is. Within this introduction is the users name that is generated in the greeting via .innerHTML. If the user does not want to put in a name it is left blank button the intro continues to makes sense. 
 
+>As a first time user of the game, I want to easily understand the aims of the game. 
+
 Game
 
 ![gameboard](../docs/imgs/gameboard.jpg)
 
-The game feature itself has 12 match cards, 6 picture and 6 text. The card backs are brightly coloured, and the card faces are minimalistic, so they stand out against the background. When a card is turned it is toggled with the class ‘selected’, when two selected cards have matching names they remain turned upright, if the two selected cards do not have matching name attributes then they flip back over to be clicked again later. All cards flip with a fun animation. 
+The game is accessible as soon as the user alert is dismissed. The game feature itself has 12 match cards, 6 picture and 6 text. The card backs are brightly coloured, and the card faces are minimalistic, so they stand out against the background. When a card is turned it is toggled with the class ‘selected’, when two selected cards have matching names they remain turned upright, if the two selected cards do not have matching name attributes then they flip back over to be clicked again later. All cards flip with a fun animation. 
 The background image on the game board is simple as to not defer from the game cards, but still colourful enough to have the game board feel like the main point of the page. 
 
+>As a first time user of the game, I want to be able to start the game easily.
 
 Lives left counter
 
 ![livescounter](../docs/imgs/livescounter.jpg)
 
 The lives left counter starts at 8 and goes down to zero with each incorrect move using a decrement--. The background of the text area is white to make is more visible against the background image. If the player loses the game the lives counter is refreshed back up to 8 when the game restarts. 
+
+>As a returning user of the game, I want my lives to reset when I replay the game. 
 
 Win alert
 
@@ -204,11 +214,24 @@ Lose alert
 
 If the use losses the game, an alert pops up to tell them to try again. Again, on the user pressing the ok button the alert closes and the newGame variable starts the game again. 
 
+>As a returning user of the game, I want to be able to start the game again.
+
+Randomise
+
+![randomise](../docs/imgs/randomise.jpg)
+
+When the game restarts the randomize function makes sure that the cards are different every round so the user is not playing the same game again.
+
+>As a returning user of the game, I want the matches to reshuffle so I am not playing the same cards again.
+
 Trivia area
 
 ![triviaarea](../docs/imgs/triviasection.jpg)
 
 Under the game board there is a trivia area that shows a random fact about vegetables, fruit, or nutrition with the heading ‘Did you know?’. These facts are generated when the user clicks the button below it. 
+
+>As a first time user of the game, I want to learn about vegetables while having fun.
+>As an owner of the game site, I want to teach children about vegetables with simple facts.
 
 Click me button 
 
@@ -292,6 +315,9 @@ Microsoft Excel - The software used to make the testing spreadsheet.
 ---
 ### 5 Testing
 ---
+
+>As a first time user of the game, I want to be able to play the game bug free. 
+>As a first time user of the game, I want to be able to play the game on whatever screen size I may be on. 
 
 Testing completed for this project covers the areas of: responsivity, features, accessibility, performance, and validator testing. Tests where completed regularly at every stage of development and then at the final stage before submitting. 
 
